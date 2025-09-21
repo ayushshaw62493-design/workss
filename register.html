@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KrishiMitra - Register</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="background">
+    <div class="background">
+  <div class="rain" id="rain"></div> <!-- Rain container -->
+  <div class="center-box">
+    <!-- Your existing content here -->
+  </div>
+</div>
+
+  <div class="center-box">
+    <h1 id="registerTitle">KrishiMitra Registration</h1>
+
+    <select id="languageSelect" onchange="updateLanguage('register')">
+      <option value="en">English</option>
+      <option value="hi">Hindi</option>
+      <option value="bn">Bengali</option>
+    </select>
+
+    <input type="text" id="newUsername" placeholder="Username">
+    <input type="password" id="newPassword" placeholder="Password">
+    <input type="email" id="email" placeholder="Email">
+    <button id="registerBtn" onclick="registerUser()">Register</button>
+    <p id="loginText">Already User? <a href="index.html">Login Here</a></p>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

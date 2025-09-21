@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KrishiMitra - Soil Selection</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="background">
+    <div class="rain" id="rain"></div> <!-- Rain container -->
+  <div class="center-box animate">
+    <label id="soilLabel">Select Soil:</label>
+    <select id="soilSelect">
+      <option value="">--Select--</option>
+      <option value="Alluvial">Alluvial</option>
+      <option value="Red">Red</option>
+      <option value="Black">Black</option>
+      <option value="Laterite">Laterite</option>
+      <option value="Clay">Clay</option>
+      <option value="Sandy">Sandy</option>
+      <option value="Loamy">Loamy</option>
+      <option value="Peaty">Peaty</option>
+      <option value="Chalky">Chalky</option>
+      <option value="Saline">Saline</option>
+    </select>
+    <button onclick="goToLocation()">Next</button>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
